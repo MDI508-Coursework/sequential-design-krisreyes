@@ -78,3 +78,4 @@ def mcei(seed, ell, sigma_0, sigma_W, x1, y1, x2, y2, x3, x4, x5):
     i_max = np.argmax(ei_vals)
     return x[i_max], ei_vals[i_max]
 
+
