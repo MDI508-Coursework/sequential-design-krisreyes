@@ -63,6 +63,7 @@ def sample_gp(seed, ell, sigma_0, sigma_W, x1, y1, x2, y2, x3, x4, x5):
     return sample.tolist()
 
 def mcei(seed, ell, sigma_0, sigma_W, x1, y1, x2, y2, x3, x4, x5):
+    """
     rng = np.random.default_rng(seed=int(seed))
     sample_y_vals = np.zeros((1000, 3))
     for i in range(1000):
@@ -77,5 +78,8 @@ def mcei(seed, ell, sigma_0, sigma_W, x1, y1, x2, y2, x3, x4, x5):
     x = [x3, x4, x5]
     i_max = np.argmax(ei_vals)
     return x[i_max], ei_vals[i_max]
+
+    """
+    return 0, 0
 
 
