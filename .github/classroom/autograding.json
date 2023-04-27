@@ -33,7 +33,7 @@
     {
       "name": "Test 2b",
       "setup": "sudo -H pip3 install git+https://github.com/MDI508-Coursework/run-tests.git",
-      "run": "python -m mcei predict_gp 13BVkaWYIS5PLbivyo8cHrZjk5KpoGaVN --output_dim=2",
+      "run": "python -m run_tests mcei 13BVkaWYIS5PLbivyo8cHrZjk5KpoGaVN --output_dim=2",
       "input": "",
       "output": "",
       "comparison": "included",
