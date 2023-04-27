@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test 1a",
+      "setup": "sudo -H pip3 install git+https://github.com/MDI508-Coursework/run-tests.git",
+      "run": "python -m run_tests predict_gp 134Jjfsqj4g1qRfNWRdvXPaLSLkqt-_Sd --output_dim=9",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test 1b",
+      "setup": "sudo -H pip3 install git+https://github.com/MDI508-Coursework/run-tests.git",
+      "run": "python -m run_tests ucb 1372it0sakKrf5BTMo2lqLVBCrXrOrgPl --output_dim=2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test 2a",
+      "setup": "sudo -H pip3 install git+https://github.com/MDI508-Coursework/run-tests.git",
+      "run": "python -m run_tests sample_gp 13GX2eEL-Q9OhWdrqJSG9SXXdUkbhRprV --output_dim=3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test 2b",
+      "setup": "sudo -H pip3 install git+https://github.com/MDI508-Coursework/run-tests.git",
+      "run": "python -m mcei predict_gp 13BVkaWYIS5PLbivyo8cHrZjk5KpoGaVN --output_dim=2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 4
+    }
+  ]
+}
